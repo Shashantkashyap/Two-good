@@ -158,6 +158,8 @@ body{
 }
 .elem .dets:hover{
     height: 200px;
+    scale:1.2;
+    transition-duration: 1.8s;
 }
 #page3{
     min-height: 120vh;
