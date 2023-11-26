@@ -181,21 +181,24 @@ body{
     justify-content: center;
     align-items: center;
     padding: 15vw;
-   
+   border: 2px solid black;
 
 
 
 }
-.child1{
-    z-index: 10;
-}
+
 #child img{
     height: 100%;
     object-fit:cover;
     z-index: 100;
+    padding: 2px;
     
     
-    
+}
+#child img:hover{
+    scale: 1.1;
+    border: 2px solid black;
+    padding: 2px;
 }
 @media (max-width:600px){
     #page1{
